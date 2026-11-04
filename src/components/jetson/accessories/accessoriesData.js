@@ -93,7 +93,7 @@ const accessories = [
   ssd({
     id: 'ssd-128',
     name: 'NVMe M.2 PCIe Gen3x4 2280 Internal SSD — 128GB',
-    image: `${IMG_BASE}/s/u2mqojx3zQ`,
+    image: `${IMG_BASE}/s/e1fYRsL1Jb`,
     capacity: '128GB',
     formFactor: '2280',
     sku: '112990226',
@@ -104,7 +104,7 @@ const accessories = [
   ssd({
     id: 'ssd-256',
     name: 'NVMe M.2 PCIe Gen3x4 2280 Internal SSD — 256GB',
-    image: `${IMG_BASE}/s/BOMkdGppo3`,
+    image: `${IMG_BASE}/s/noyv26UYoj`,
     capacity: '256GB',
     formFactor: '2280',
     sku: '112990246',
@@ -115,7 +115,7 @@ const accessories = [
   ssd({
     id: 'ssd-512',
     name: 'NVMe M.2 PCIe Gen3x4 2280 Internal SSD — 512GB',
-    image: `${IMG_BASE}/s/LizERtzjLE`,
+    image: `${IMG_BASE}/s/FeSVhbAhEK`,
     capacity: '512GB',
     formFactor: '2280',
     sku: '112990247',
@@ -126,7 +126,7 @@ const accessories = [
   ssd({
     id: 'ssd-1tb',
     name: 'NVMe M.2 PCIe Gen3x4 2280 Internal SSD — 1TB',
-    image: `${IMG_BASE}/s/GtYLobxtZd`,
+    image: `${IMG_BASE}/s/UBaF8BZ8V2`,
     capacity: '1TB',
     formFactor: '2280',
     sku: '112990267',
@@ -137,7 +137,7 @@ const accessories = [
   ssd({
     id: 'ssd-2tb',
     name: 'NVMe M.2 PCIe Gen3x4 2280 Internal SSD — 2TB',
-    image: `${IMG_BASE}/s/XBYL2vVh2v`,
+    image: `${IMG_BASE}/s/l5TzFpRr97`,
     capacity: '2TB',
     formFactor: '2280',
     sku: '114993467',
@@ -179,7 +179,7 @@ const accessories = [
   wifi({
     id: 'wifi-rtl8822ce',
     name: 'RTL8822CE Wireless NIC Kits',
-    image: `${IMG_BASE}/s/UCnZGLU6ER`,
+    image: `${IMG_BASE}/s/BOI3q0gA2q`,
     ...loc(
       'function',
       'WiFi + 蓝牙',
@@ -205,7 +205,7 @@ const accessories = [
   wifi({
     id: 'wifi-bl-m8723du1',
     name: 'BL-M8723DU1',
-    image: `${IMG_BASE}/s/ru6cV9YjOd`,
+    image: `${IMG_BASE}/s/n8XO3MtXgx`,
     ...loc(
       'function',
       'WiFi + 蓝牙',
@@ -233,7 +233,7 @@ const accessories = [
   lte({
     id: '4g-ec25',
     name: 'LTE Cat 4 EC25',
-    image: `${IMG_BASE}/s/yPvuS6L35k`,
+    image: `${IMG_BASE}/s/8FubFvVLKi`,
     network: 'LTE Cat 4',
     interface: 'minipcie',
     interfaceLabel: 'Mini PCIe',
@@ -252,7 +252,7 @@ const accessories = [
   lte({
     id: '4g-em12g',
     name: 'EM12-G',
-    image: `${IMG_BASE}/s/zMjR2wXlpA`,
+    image: `${IMG_BASE}/s/5mmr8jLftu`,
     network: 'LTE',
     interface: 'm2b',
     interfaceLabel: 'M.2 Key B',
