@@ -9,8 +9,7 @@
  * En / Ja / Es / Pt. The selector falls back to English, not Chinese.
  */
 
-const IMG_BASE = 'https://aka.doubaocdn.com';
-const PCLINE_IMG = 'https://img4.pconline.com.cn/pconline/images/product';
+// Images are stored locally in static/img/jetson/accessories/
 
 function loc(field, zh, en, ja, es, pt) {
   return {
@@ -93,7 +92,7 @@ const accessories = [
   ssd({
     id: 'ssd-128',
     name: 'NVMe M.2 PCIe Gen3x4 2280 Internal SSD — 128GB',
-    image: `${IMG_BASE}/s/e1fYRsL1Jb`,
+    image: '/img/jetson/accessories/ssd-128.jpg',
     capacity: '128GB',
     formFactor: '2280',
     sku: '112990226',
@@ -104,7 +103,7 @@ const accessories = [
   ssd({
     id: 'ssd-256',
     name: 'NVMe M.2 PCIe Gen3x4 2280 Internal SSD — 256GB',
-    image: `${IMG_BASE}/s/noyv26UYoj`,
+    image: '/img/jetson/accessories/ssd-256.jpg',
     capacity: '256GB',
     formFactor: '2280',
     sku: '112990246',
@@ -115,7 +114,7 @@ const accessories = [
   ssd({
     id: 'ssd-512',
     name: 'NVMe M.2 PCIe Gen3x4 2280 Internal SSD — 512GB',
-    image: `${IMG_BASE}/s/FeSVhbAhEK`,
+    image: '/img/jetson/accessories/ssd-512.jpg',
     capacity: '512GB',
     formFactor: '2280',
     sku: '112990247',
@@ -126,7 +125,7 @@ const accessories = [
   ssd({
     id: 'ssd-1tb',
     name: 'NVMe M.2 PCIe Gen3x4 2280 Internal SSD — 1TB',
-    image: `${IMG_BASE}/s/UBaF8BZ8V2`,
+    image: '/img/jetson/accessories/ssd-1tb.jpg',
     capacity: '1TB',
     formFactor: '2280',
     sku: '112990267',
@@ -137,7 +136,7 @@ const accessories = [
   ssd({
     id: 'ssd-2tb',
     name: 'NVMe M.2 PCIe Gen3x4 2280 Internal SSD — 2TB',
-    image: `${IMG_BASE}/s/l5TzFpRr97`,
+    image: '/img/jetson/accessories/ssd-2tb.jpg',
     capacity: '2TB',
     formFactor: '2280',
     sku: '114993467',
@@ -157,7 +156,7 @@ const accessories = [
       'Fanxiang S542PRO 2242 SSD',
       'Fanxiang S542PRO 2242 SSD',
     ),
-    image: `${PCLINE_IMG}/20240619/21013557_sn8.jpg`,
+    image: '/img/jetson/accessories/ssd-fanxiang.jpg',
     capacity: '—',
     formFactor: '2242',
     sku: '—',
@@ -179,7 +178,7 @@ const accessories = [
   wifi({
     id: 'wifi-rtl8822ce',
     name: 'RTL8822CE Wireless NIC Kits',
-    image: `${IMG_BASE}/s/BOI3q0gA2q`,
+    image: '/img/jetson/accessories/wifi-rtl8822ce.jpg',
     ...loc(
       'function',
       'WiFi + 蓝牙',
@@ -205,7 +204,7 @@ const accessories = [
   wifi({
     id: 'wifi-bl-m8723du1',
     name: 'BL-M8723DU1',
-    image: `${IMG_BASE}/s/n8XO3MtXgx`,
+    image: '/img/jetson/accessories/wifi-bl-m8723du1.jpg',
     ...loc(
       'function',
       'WiFi + 蓝牙',
@@ -233,7 +232,7 @@ const accessories = [
   lte({
     id: '4g-ec25',
     name: 'LTE Cat 4 EC25',
-    image: `${IMG_BASE}/s/8FubFvVLKi`,
+    image: '/img/jetson/accessories/4g-ec25.jpg',
     network: 'LTE Cat 4',
     interface: 'minipcie',
     interfaceLabel: 'Mini PCIe',
@@ -252,7 +251,7 @@ const accessories = [
   lte({
     id: '4g-em12g',
     name: 'EM12-G',
-    image: `${IMG_BASE}/s/5mmr8jLftu`,
+    image: '/img/jetson/accessories/4g-em12g.jpg',
     network: 'LTE',
     interface: 'm2b',
     interfaceLabel: 'M.2 Key B',
