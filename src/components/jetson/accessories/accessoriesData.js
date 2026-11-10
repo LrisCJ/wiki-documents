@@ -251,7 +251,7 @@ const accessories = [
   lte({
     id: '4g-em12g',
     name: 'EM12-G',
-    image: '/img/jetson/accessories/4g-em12g.jpg',
+    image: '/img/jetson/accessories/4g-em12g.png',
     network: 'LTE',
     interface: 'm2b',
     interfaceLabel: 'M.2 Key B',
